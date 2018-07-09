@@ -1,10 +1,17 @@
-@import "bootstrap-sprockets";
+// @import "bootstrap-sprockets";
 @import "bootstrap";
 
 h1 {
   text-align: center;
 }
 
-.card-title {
-  font-weight: bold;
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+
+}
+
+.card-top {
+
 }
